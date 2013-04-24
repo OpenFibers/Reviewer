@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Reviewer' target in the 'Reviewer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

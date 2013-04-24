@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423CDE5E171D41EF00E6FCF9 /* OTRReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 423CDE5D171D41EF00E6FCF9 /* OTRReviewModel.m */; };
+		423CDE62171D437400E6FCF9 /* OTRReviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 423CDE61171D437400E6FCF9 /* OTRReviewView.m */; };
+		423EA5F81727C16200EF0F2E /* NSTextView+OTRReviewerMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EA5F71727C16200EF0F2E /* NSTextView+OTRReviewerMethods.m */; };
+		425EC4DC171D11270082E447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425EC4DA171D11270082E447 /* InfoPlist.strings */; };
+		4299EE9B171D160400A0C22E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425EC4D4171D11270082E447 /* AppKit.framework */; };
+		4299EE9C171D161000A0C22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425EC4D6171D11270082E447 /* Foundation.framework */; };
+		42CCAE96171D1A360033DA2A /* OTRReviewerLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCAE95171D1A360033DA2A /* OTRReviewerLauncher.m */; };
+		42D6FCB417252D0F0092782A /* OTRReviewMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D6FCB317252D0F0092782A /* OTRReviewMarkView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		423CDE5C171D41EF00E6FCF9 /* OTRReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRReviewModel.h; sourceTree = "<group>"; };
+		423CDE5D171D41EF00E6FCF9 /* OTRReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRReviewModel.m; sourceTree = "<group>"; };
+		423CDE60171D437400E6FCF9 /* OTRReviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRReviewView.h; sourceTree = "<group>"; };
+		423CDE61171D437400E6FCF9 /* OTRReviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRReviewView.m; sourceTree = "<group>"; };
+		423EA5F61727C16200EF0F2E /* NSTextView+OTRReviewerMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+OTRReviewerMethods.h"; sourceTree = "<group>"; };
+		423EA5F71727C16200EF0F2E /* NSTextView+OTRReviewerMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+OTRReviewerMethods.m"; sourceTree = "<group>"; };
+		425EC4CE171D11260082E447 /* Reviewer.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reviewer.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		425EC4D4171D11270082E447 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		425EC4D6171D11270082E447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		425EC4D9171D11270082E447 /* Reviewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reviewer-Info.plist"; sourceTree = "<group>"; };
+		425EC4DB171D11270082E447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		425EC4DD171D11270082E447 /* Reviewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reviewer-Prefix.pch"; sourceTree = "<group>"; };
+		42CCAE94171D1A360033DA2A /* OTRReviewerLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRReviewerLauncher.h; sourceTree = "<group>"; };
+		42CCAE95171D1A360033DA2A /* OTRReviewerLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRReviewerLauncher.m; sourceTree = "<group>"; };
+		42D6FCB217252D0F0092782A /* OTRReviewMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRReviewMarkView.h; sourceTree = "<group>"; };
+		42D6FCB317252D0F0092782A /* OTRReviewMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRReviewMarkView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425EC4CB171D11260082E447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4299EE9B171D160400A0C22E /* AppKit.framework in Frameworks */,
+				4299EE9C171D161000A0C22E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423CDE5B171D41DA00E6FCF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				423CDE5C171D41EF00E6FCF9 /* OTRReviewModel.h */,
+				423CDE5D171D41EF00E6FCF9 /* OTRReviewModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		423CDE5F171D436400E6FCF9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				423CDE60171D437400E6FCF9 /* OTRReviewView.h */,
+				423CDE61171D437400E6FCF9 /* OTRReviewView.m */,
+				423EA5F61727C16200EF0F2E /* NSTextView+OTRReviewerMethods.h */,
+				423EA5F71727C16200EF0F2E /* NSTextView+OTRReviewerMethods.m */,
+				42D6FCB217252D0F0092782A /* OTRReviewMarkView.h */,
+				42D6FCB317252D0F0092782A /* OTRReviewMarkView.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		425EC4C5171D11260082E447 = {
+			isa = PBXGroup;
+			children = (
+				425EC4D7171D11270082E447 /* Reviewer */,
+				425EC4D0171D11260082E447 /* Frameworks */,
+				425EC4CF171D11260082E447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425EC4CF171D11260082E447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425EC4CE171D11260082E447 /* Reviewer.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425EC4D0171D11260082E447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425EC4D4171D11270082E447 /* AppKit.framework */,
+				425EC4D6171D11270082E447 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		425EC4D7171D11270082E447 /* Reviewer */ = {
+			isa = PBXGroup;
+			children = (
+				42CCAE93171D1A360033DA2A /* Classes */,
+				423CDE5F171D436400E6FCF9 /* CustomViews */,
+				423CDE5B171D41DA00E6FCF9 /* Models */,
+				425EC4D8171D11270082E447 /* Supporting Files */,
+			);
+			path = Reviewer;
+			sourceTree = "<group>";
+		};
+		425EC4D8171D11270082E447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425EC4D9171D11270082E447 /* Reviewer-Info.plist */,
+				425EC4DA171D11270082E447 /* InfoPlist.strings */,
+				425EC4DD171D11270082E447 /* Reviewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42CCAE93171D1A360033DA2A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42CCAE94171D1A360033DA2A /* OTRReviewerLauncher.h */,
+				42CCAE95171D1A360033DA2A /* OTRReviewerLauncher.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425EC4CD171D11260082E447 /* Reviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425EC4E0171D11270082E447 /* Build configuration list for PBXNativeTarget "Reviewer" */;
+			buildPhases = (
+				425EC4CA171D11260082E447 /* Sources */,
+				425EC4CB171D11260082E447 /* Frameworks */,
+				425EC4CC171D11260082E447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reviewer;
+			productName = Reviewer;
+			productReference = 425EC4CE171D11260082E447 /* Reviewer.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425EC4C6171D11260082E447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = openthread;
+			};
+			buildConfigurationList = 425EC4C9171D11260082E447 /* Build configuration list for PBXProject "Reviewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 425EC4C5171D11260082E447;
+			productRefGroup = 425EC4CF171D11260082E447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425EC4CD171D11260082E447 /* Reviewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425EC4CC171D11260082E447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425EC4DC171D11270082E447 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425EC4CA171D11260082E447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CCAE96171D1A360033DA2A /* OTRReviewerLauncher.m in Sources */,
+				423CDE5E171D41EF00E6FCF9 /* OTRReviewModel.m in Sources */,
+				423CDE62171D437400E6FCF9 /* OTRReviewView.m in Sources */,
+				42D6FCB417252D0F0092782A /* OTRReviewMarkView.m in Sources */,
+				423EA5F81727C16200EF0F2E /* NSTextView+OTRReviewerMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		425EC4DA171D11270082E447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425EC4DB171D11270082E447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425EC4DE171D11270082E447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		425EC4DF171D11270082E447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		425EC4E1171D11270082E447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reviewer/Reviewer-Prefix.pch";
+				INFOPLIST_FILE = "Reviewer/Reviewer-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		425EC4E2171D11270082E447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reviewer/Reviewer-Prefix.pch";
+				INFOPLIST_FILE = "Reviewer/Reviewer-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425EC4C9171D11260082E447 /* Build configuration list for PBXProject "Reviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425EC4DE171D11270082E447 /* Debug */,
+				425EC4DF171D11270082E447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425EC4E0171D11270082E447 /* Build configuration list for PBXNativeTarget "Reviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425EC4E1171D11270082E447 /* Debug */,
+				425EC4E2171D11270082E447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425EC4C6171D11260082E447 /* Project object */;
+}
