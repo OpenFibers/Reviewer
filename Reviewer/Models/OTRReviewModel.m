@@ -87,7 +87,7 @@
     static NSRegularExpression *reviewModelRegex = nil;
     if (!reviewModelRegex)
     {
-        NSString *patternString = @".*@review.*";
+        NSString *patternString = @"^\\s*//@review";
         reviewModelRegex = [NSRegularExpression regularExpressionWithPattern:patternString options:0 error:NULL];
 
     }

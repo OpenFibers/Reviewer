@@ -72,7 +72,11 @@
             currentLineRange.length = line.length;
             
             //Find review tag
-            NSRange reviewTagRange = [line rangeOfString:@"@review"];
+            //NSRange reviewTagRange = [line rangeOfString:@"//@review"];
+
+            NSRegularExpression *regex = [OTRReviewModel reviewModelRegex];
+            NSRange reviewTagRange = [regex rangeOfFirstMatchInString:line options:0 range:NSMakeRange(0, [line length])];
+            
             if (reviewTagRange.location != NSNotFound)//If review tag found
             {
                 //Highlight review tag line

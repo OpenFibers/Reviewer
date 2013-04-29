@@ -25,4 +25,5 @@
 
 + (NSString *)currentDateString;
 
++ (NSRegularExpression *)reviewModelRegex;
 @end
